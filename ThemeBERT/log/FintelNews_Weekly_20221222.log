@@ -1,0 +1,33 @@
+ => Starting the NLP processing >FROM 2022-12-16 TO 2022-12-22
+ => Starting the NLP processing >FROM 2022-12-17 TO 2022-12-22
+ > collect the news list given date [2022-12-17]
+ => collecting WSJ news list📰 of pages [1] --@2022-12-17
+ > collect the news list given date [2022-12-18]
+ => collecting WSJ news list📰 of pages [2] --@2022-12-18
+ ==> Turning to page 2
+ ==> Turning to page 3
+ > collect the news list given date [2022-12-19]
+ => collecting WSJ news list📰 of pages [2] --@2022-12-19
+ ==> Turning to page 2
+ ==> Turning to page 3
+ > collect the news list given date [2022-12-20]
+ => collecting WSJ news list📰 of pages [3] --@2022-12-20
+ ==> Turning to page 2
+ ==> Turning to page 3
+ ==> Turning to page 4
+ > collect the news list given date [2022-12-21]
+ => collecting WSJ news list📰 of pages [2] --@2022-12-21
+ ==> Turning to page 2
+ ==> Turning to page 3
+ > collect the news list given date [2022-12-22]
+ => collecting WSJ news list📰 of pages [3] --@2022-12-22
+ ==> Turning to page 2
+ ==> Turning to page 3
+ ==> Turning to page 4
+ => start 📰 WSJ login process
+ <= WSJ logging is successful! -- user:xl2814@columbia.edu pwd:lxh19951020
+ <= Output the NLP news feed @20221222
+ <= Output the NLP news feed @20221222
+ <= Output the NLP news feed @20221222
+ <= Output the NLP news feed @20221222
+ <= Output the NLP news feed @20221222
