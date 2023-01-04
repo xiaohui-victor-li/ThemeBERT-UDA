@@ -11,8 +11,22 @@ UDA Final Project Repo
 
   Key research data are stored in GitHub at the following directory: ```/study```
 
-  * Created Global Financial News Data: `study/fin_news_studydata.parquet`
-  * Evaluation Results: `study/findings/{news_topic_TC.joblib|news_topic_TD.joblib}`
+  * 1. Created Global Financial News Dataset: `study/fin_news_studydata.parquet`
+
+  * 2. Benchmark Dataset:
+
+    ```python
+    from sklearn.datasets import fetch_20newsgroups 
+    
+    newsgroups_train = fetch_20newsgroups(subset='train',
+                                          remove=('headers', 'footers', 'quotes'))
+    
+    newsgroups_test = fetch_20newsgroups(subset='test',
+                                         remove=('headers', 'footers', 'quotes'))
+    
+    ```
+
+  		* Evaluation Results: `study/findings/{news_topic_TC.joblib|news_topic_TD.joblib}`
 
 
 
@@ -38,9 +52,13 @@ UDA Final Project Repo
 
 # Quick Start
 
-To rerun the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with gudiance.
+To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with gudiance.
 
+The notebook analysis in total consists of three sections:
 
+- Data Processing
+
+- Practical Application
 
 
 
