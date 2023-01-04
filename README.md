@@ -56,9 +56,10 @@ To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics noteb
 
 The notebook analysis in total consists of three sections:
 
-- Data Processing
+- **Section I: Data Processing.** Collect the news text data using selenium and Wayback Machine Python. Could directly load the generated data.
+- **Section II**: 
 
-- Practical Application
+- **Section III: Practical Application**: Generate the Covid-19 news theme trend
 
 
 
