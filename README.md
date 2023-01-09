@@ -3,6 +3,8 @@ UDA Final Project Repo
 
 
 
+All the work have been done independently. 
+
 
 
 # Overview
@@ -48,8 +50,6 @@ UDA Final Project Repo
 
   
 
-
-
 # Quick Start
 
 To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with gudiance.
@@ -57,9 +57,30 @@ To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics noteb
 The notebook analysis in total consists of three sections:
 
 - **Section I: Data Processing.** Collect the news text data using selenium and Wayback Machine Python. Could directly load the generated data.
-- **Section II**: 
+
+- **Section II: Modelling & Research** Implement the research and reproduce the findings as is shown in the report. 
 
 - **Section III: Practical Application**: Generate the Covid-19 news theme trend
+
+  
+
+## Running Time
+
+All the analysis has been ran on local desktop (i.e., Apple M1 Macbook Pro of 32 GB memory) using single CPU. The runtime takes 1-2 hours on each dataset and no parallel jobs are needed. 
+
+To efficiently rerun the analysis, user could skip some processing component and directly load the intermediate study variable. This could help save time to within 1 hour.
+
+* A. Results on Real Financial News Dataset
+
+  ```python
+  topic_TC_final_result = joblib.load("study/findings/news_topic_TC.joblib")
+  topic_TD_final_result = joblib.load("study/findings/news_topic_TD.joblib")
+  
+  ```
+
+* B. Results on 20 Newsgroup Dataset
+
+  Run the `Topic Model Comparison on Benchmark Dataset: 20 Newsgroups` block from scratch
 
 
 
