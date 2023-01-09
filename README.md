@@ -35,9 +35,9 @@ All the work have been done independently.
 
 * FinNLP Python Library
 
-  An open-source NLP library `FinNLP` is developed by myself, which is extend from open source codes. The library supports the functionality of topic model ThemeBERT and other models.  
+  An open-source NLP library `FinNLP` is developed by myself, which is extended from open source codes. The library supports the functionality of topic model ThemeBERT and other NLP models.  
 
-  ⚠️ The following python libraries are required to pre-install:
+  ⚠️ The following python libraries are required to pre-install to launch `FinNLP`:
 
   ```python
   SpaCy: https://spacy.io/usage
@@ -52,9 +52,9 @@ All the work have been done independently.
 
   
 
-# Quick Start
+# Quick Start to Reproduce Results
 
-To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with gudiance.
+To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with guidance.
 
 The notebook analysis in total consists of three sections:
 
@@ -73,13 +73,13 @@ The notebook analysis in total consists of three sections:
 
   
 
-- **Section II: Modelling & Research** Implement the research and reproduce the findings as is shown in the report. 
+- **Section II: Modelling & Research.** Implement the research and reproduce the findings as is shown in the report. 
 
   
 
-- **Section III: Practical Application**: Generate the Covid-19 news theme trend
+- **Section III: Practical Application.** Generate the Covid-19 news theme trend
 
-  Run the notebook code of the `Section III` block. The end product will be the time series charts  of the Covid-19 news trend tracker.
+  Run the notebook code of the `Section III` block. The output will be the time series charts of the Covid-19 news trend tracker.
 
   
 
