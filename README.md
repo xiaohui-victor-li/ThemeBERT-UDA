@@ -71,19 +71,21 @@ The notebook analysis in total consists of three sections:
   
   ```
 
-  
+
 
 - **Section II: Modelling & Research.** Implement the research and reproduce the findings as is shown in the report. 
 
 ​		This section covers the major research part of the project. It starts by the study on real news dataset:
 
- 		1. preprocesses the input text data --`a. Research Data Set-up`, then
- 		1. shows the functionality of implemented modes -- `b. Baseline Topic Models` and `c. ThemeBERT Topic Modeling`,  
- 		1. compares the model performance `[ Core ] Research Results` subsection
+​			📍 Preprocesses the input text data --`a. Research Data Set-up`, then
 
-​		Furthermore, it conducts the study within the 20 newsgroup benchmark dataset in the following block.
+​			📍 Shows the functionality of implemented modes -- `b. Baseline Topic Models` and `c. ThemeBERT Topic Modeling`,  
 
-​		`Topic Model Comparison on Benchmark Dataset: 20 Newsgroups`
+​			📍 Compares the model performance `[ Core ] Research Results` subsection
+
+​		Furthermore, it conducts the study within the 20 newsgroup benchmark dataset in the following code block:
+
+​			`Topic Model Comparison on Benchmark Dataset: 20 Newsgroups`
 
 
 
@@ -91,7 +93,7 @@ The notebook analysis in total consists of three sections:
 
   Run the notebook code of the `Section III` block. The output will be the time series charts of the Covid-19 news trend tracker.
 
-  
+
 
 ## Running Time
 
