@@ -54,7 +54,7 @@ All the work have been done independently.
 
 # Quick Start to Reproduce Results
 
-To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with guidance.
+To run the analysis, open the `/study/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with guidance.
 
 The notebook analysis in total consists of three sections:
 
@@ -75,7 +75,17 @@ The notebook analysis in total consists of three sections:
 
 - **Section II: Modelling & Research.** Implement the research and reproduce the findings as is shown in the report. 
 
-  
+​		This section covers the major research part of the project. It starts by the study on real news dataset:
+
+ 		1. preprocesses the input text data --`a. Research Data Set-up`, then
+ 		1. shows the functionality of implemented modes -- `b. Baseline Topic Models` and `c. ThemeBERT Topic Modeling`,  
+ 		1. compares the model performance `[ Core ] Research Results` subsection
+
+​		Furthermore, it conducts the study within the 20 newsgroup benchmark dataset in the following block.
+
+​		`Topic Model Comparison on Benchmark Dataset: 20 Newsgroups`
+
+
 
 - **Section III: Practical Application.** Generate the Covid-19 news theme trend
 
