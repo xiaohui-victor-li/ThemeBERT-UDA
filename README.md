@@ -28,9 +28,10 @@ All the work have been done independently.
     
     ```
 
-  		* Evaluation Results: `study/findings/{news_topic_TC.joblib|news_topic_TD.joblib}`
-
-
+  
+  Evaluation Results: `study/findings/{news_topic_TC.joblib|news_topic_TD.joblib}`
+  
+  
 
 * FinNLP Python Library
 
@@ -39,11 +40,12 @@ All the work have been done independently.
   ⚠️ The following python libraries are required to pre-install:
 
   ```python
-  SpaCy
-  PyTorch
-  HuggingFace Transformers
-  Sentence-BERT
-  Hdbscan | UMAP-learn
+  SpaCy: https://spacy.io/usage
+  PyTorch: https://pytorch.org/get-started/locally/
+  HuggingFace Transformers [torch]: https://huggingface.co/docs/transformers/installation
+  Sentence-BERT: https://www.sbert.net/
+  UMAP-learn: https://umap-learn.readthedocs.io/en/latest/
+  Hdbscan: https://hdbscan.readthedocs.io/en/latest/ 
   rich: https://pypi.org/project/rich/
   
   ```
@@ -56,11 +58,28 @@ To run the analysis, open the `/ThemeBERT/ThemeBERT_Study.ipynb` analytics noteb
 
 The notebook analysis in total consists of three sections:
 
-- **Section I: Data Processing.** Collect the news text data using selenium and Wayback Machine Python. Could directly load the generated data.
+- **Section I: Data Processing.** Collect the real global financial news text data using selenium and Wayback Machine Python. The data collection process is *independent* to the analysis process. Could directly load the generated data `fin_news_studydata.parquet`.
+
+  ```python
+  news_data_output = pd.read_parquet("study/fin_news_studydata.parquet")
+  
+  # research data
+  news_research_data = news_data_output.sample(10000, random_state=42).copy()
+  
+  # text document input
+  input_doc_ls = news_research_data['NewsInput'].to_list()
+  
+  ```
+
+  
 
 - **Section II: Modelling & Research** Implement the research and reproduce the findings as is shown in the report. 
 
+  
+
 - **Section III: Practical Application**: Generate the Covid-19 news theme trend
+
+  Run the notebook code of the `Section III` block. The end product will be the time series charts  of the Covid-19 news trend tracker.
 
   
 
