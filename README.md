@@ -11,9 +11,9 @@ All the work have been done independently.
 
 * Research Analysis Data
 
-  Key research data are stored in GitHub at the following directory: ```/study```
+  Key research data are stored in GitHub at the following directory: ```/ThemeBERT/study```
 
-  * 1. Created Global Financial News Dataset: `study/fin_news_studydata.parquet`
+  * 1. Created Global Financial News Dataset: `/ThemeBERT/study/fin_news_studydata.parquet`
 
   * 2. Benchmark Dataset:
 
@@ -29,7 +29,7 @@ All the work have been done independently.
     ```
 
   
-  Evaluation Results: `study/findings/{news_topic_TC.joblib|news_topic_TD.joblib}`
+  Evaluation Results: `/ThemeBERT/study/findings/{news_topic_TC.joblib|news_topic_TD.joblib}`
   
   
 
@@ -50,11 +50,23 @@ All the work have been done independently.
   
   ```
 
-  
+
+​		In the local notebook running environment, load this library by adding the path after installing the required packages.
+
+```python
+sys.path.append('..')   # load the FinNLP python library
+
+import FinNLP
+
+```
+
+​					
+
+
 
 # Quick Start to Reproduce Results
 
-To run the analysis, open the `/study/ThemeBERT/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with guidance.
+To run the analysis, open the `/ThemeBERT/study/ThemeBERT_Study.ipynb` analytics notebook. All the analysis are commented with usage guidance.
 
 The notebook analysis in total consists of three sections:
 
